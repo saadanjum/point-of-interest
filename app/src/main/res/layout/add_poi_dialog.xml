@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/dialog_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Name Of Place"
+        android:textSize="12dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/et_name_of_place"
+        android:background="@drawable/text_background"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="Category"
+        android:textSize="12dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/categories"
+        android:id="@+id/spinner_category"
+        android:padding="10dp"
+        android:background="@drawable/text_background">
+
+    </Spinner>
+
+    <Button
+        android:textColor="#fff"
+        android:background="@drawable/btn_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD POI"
+        android:layout_marginTop="20dp"
+        android:id="@+id/add_poi_btn"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/add_poi_progress"/>
+
+</LinearLayout>

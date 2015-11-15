@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Residential</item>
+        <item>Food/Restaurant</item>
+        <item>Utility</item>
+        <item>Office</item>
+        <item>Social Service</item>
+        <item>Masjid</item>
+        <item>University</item>
+        <item>School/College</item>
+        <item>Hospital</item>
+        <item>Police Station</item>
+        <item>Transport</item>
+    </string-array>
+</resources>
